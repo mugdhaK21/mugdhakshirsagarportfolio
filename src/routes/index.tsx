@@ -444,6 +444,138 @@ function Projects() {
   );
 }
 
+function CreatorStudio() {
+  const pillars = [
+    { title: "AI, demystified", body: "Breaking down GenAI, LLMs and agents into bite-sized reels for students and early-career engineers." },
+    { title: "Student life in AU", body: "Honest stories from doing a Masters in AI at RMIT — applications, scholarships, settling into Melbourne." },
+    { title: "Build in public", body: "Behind-the-scenes of projects, interview prep, internship hunts and lessons from shipping AI at Dassault Systèmes." },
+    { title: "Creator economy", body: "What I'm learning from running campaigns at MyCreatorMate — brand × creator collaboration done right." },
+  ];
+  const posts = [
+    { topic: "Reel", title: "What is RAG, in 45 seconds", meta: "AI · Explainer" },
+    { topic: "Carousel", title: "5 GenAI tools I actually use weekly", meta: "Tools · Productivity" },
+    { topic: "Reel", title: "A day as an AI Masters student in Melbourne", meta: "Vlog · RMIT" },
+    { topic: "Post", title: "How I landed a role at Dassault Systèmes", meta: "Career · Story" },
+    { topic: "Carousel", title: "Prompt engineering, beyond the basics", meta: "GenAI · Tips" },
+    { topic: "Reel", title: "Inside an influencer campaign brief", meta: "Creator · BTS" },
+  ];
+  return (
+    <section id="creator" className="relative border-y border-border bg-secondary/40">
+      <div className="mx-auto max-w-6xl px-6 py-24">
+        <SectionHeader
+          kicker="Creator studio"
+          title="A second craft — turning AI, tech and student life into stories on Instagram."
+        />
+
+        <div className="grid lg:grid-cols-12 gap-10 items-start">
+          <div className="lg:col-span-5 space-y-6">
+            <a
+              href="https://instagram.com/beingmugdhaau"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-3 rounded-full border border-border bg-card px-4 py-2 hover:border-accent transition"
+            >
+              <span className="inline-flex size-8 items-center justify-center rounded-full bg-gradient-to-tr from-accent via-primary to-accent text-primary-foreground">
+                <Instagram className="size-4" />
+              </span>
+              <span className="font-mono text-sm">@beingmugdhaau</span>
+              <ArrowUpRight className="size-4 text-muted-foreground" />
+            </a>
+            <p className="text-lg text-foreground/80 leading-relaxed">
+              I run <a href="https://instagram.com/beingmugdhaau" target="_blank" rel="noreferrer" className="text-accent hover:underline">@beingmugdhaau</a> as
+              my creative outlet — a small but growing tech corner of Instagram where I talk about
+              Generative AI, student life in Australia, and the craft of building in public.
+            </p>
+            <p className="text-foreground/70 leading-relaxed">
+              Content creation isn&apos;t a side hustle for me — it&apos;s how I think out loud, pay
+              forward what I&apos;m learning, and stay close to the audiences I build products for.
+            </p>
+            <dl className="grid grid-cols-3 gap-4 pt-2">
+              {[
+                ["IG", "@beingmugdhaau"],
+                ["3.8K+", "Community"],
+                ["Weekly", "Posting cadence"],
+              ].map(([k, v]) => (
+                <div key={v} className="rounded-xl border border-border bg-card p-4">
+                  <dt className="font-display text-xl text-primary">{k}</dt>
+                  <dd className="mt-1 text-[11px] uppercase tracking-wider text-muted-foreground">{v}</dd>
+                </div>
+              ))}
+            </dl>
+            <div className="flex flex-wrap gap-3 pt-2">
+              <a
+                href="https://instagram.com/beingmugdhaau"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:bg-primary/90 transition"
+              >
+                <Instagram className="size-4" /> Follow on Instagram
+              </a>
+              <a
+                href="mailto:mugdhakshirsagar2130@gmail.com?subject=Brand%20collaboration"
+                className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium hover:border-accent transition"
+              >
+                Collab inquiry <ArrowUpRight className="size-4" />
+              </a>
+            </div>
+          </div>
+
+          <div className="lg:col-span-7">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {posts.map((p, i) => (
+                <a
+                  key={p.title}
+                  href="https://instagram.com/beingmugdhaau"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group relative aspect-square rounded-xl overflow-hidden border border-border bg-card hover:border-accent transition"
+                >
+                  <div
+                    className={`absolute inset-0 ${
+                      i % 3 === 0
+                        ? "bg-gradient-to-br from-primary via-primary/80 to-accent/60"
+                        : i % 3 === 1
+                          ? "bg-gradient-to-tr from-accent via-accent/70 to-primary/50"
+                          : "bg-gradient-to-bl from-primary/80 via-secondary to-accent/40"
+                    }`}
+                  />
+                  <div className="absolute inset-0 grain opacity-40 mix-blend-overlay" />
+                  <div className="relative h-full p-4 flex flex-col justify-between text-primary-foreground">
+                    <span className="self-start font-mono text-[10px] uppercase tracking-widest bg-background/20 backdrop-blur px-2 py-0.5 rounded-full">
+                      {p.topic}
+                    </span>
+                    <div>
+                      <p className="font-display text-lg leading-tight">{p.title}</p>
+                      <p className="mt-1 font-mono text-[10px] uppercase tracking-wider opacity-80">{p.meta}</p>
+                    </div>
+                    <Instagram className="absolute top-3 right-3 size-4 opacity-80 group-hover:scale-110 transition" />
+                  </div>
+                </a>
+              ))}
+            </div>
+            <p className="mt-4 text-center font-mono text-xs text-muted-foreground">
+              A taste of what I post — tap any tile to see the latest on Instagram.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          {pillars.map((p) => (
+            <div key={p.title} className="rounded-2xl border border-border bg-card p-6">
+              <div className="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-widest text-accent mb-3">
+                <Sparkles className="size-3.5" /> Content pillar
+              </div>
+              <h3 className="font-display text-xl leading-tight">{p.title}</h3>
+              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{p.body}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
 function SkillsSection() {
   return (
     <section id="skills" className="bg-primary text-primary-foreground">
