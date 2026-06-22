@@ -224,14 +224,15 @@ function Hero() {
             Open to AI / ML roles · Melbourne
           </div>
           <h1 className="font-display text-5xl sm:text-6xl md:text-7xl leading-[1.02] text-balance">
-            AI Developer building{" "}
-            <em className="text-accent not-italic font-display italic">intelligent</em> systems —
-            and a brand around them.
+            AI Developer learning out loud —{" "}
+            <em className="text-accent not-italic font-display italic">building</em> a future
+            around AI products & a personal brand.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed">
-            I&apos;m Mugdha Kshirsagar — an AI Developer & Generative AI engineer, ex-Dassault
-            Systèmes, currently doing my Masters in AI at RMIT. By day I ship AI products; by
-            night I run creator campaigns at MyCreatorMate and tell the story of tech on Instagram
+            I&apos;m Mugdha Kshirsagar — a tech enthusiast and AI Developer just wrapping up my
+            Masters in AI at RMIT in Melbourne. I&apos;m breaking into the AU market with a vision
+            to build and sell AI services of my own, and I document the whole journey as a tech
+            content creator on Instagram
             <a href="https://instagram.com/beingmugdhaau" target="_blank" rel="noreferrer" className="text-accent hover:underline"> @beingmugdhaau</a>.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
@@ -341,21 +342,21 @@ function About() {
       />
       <div className="grid md:grid-cols-3 gap-8 text-lg leading-relaxed">
         <p>
-          I&apos;m an AI-focused Software Engineer with a strong foundation in building intelligent
-          systems that solve real problems. At Dassault Systèmes I shipped AI-driven automation
-          inside 3D CAD workflows — measurable accuracy gains and real time saved for the
-          engineers using the product every day.
+          I&apos;m an AI-focused engineer fascinated by how intelligent systems can solve real,
+          everyday problems. At Dassault Systèmes I worked on AI-driven automation inside 3D CAD
+          workflows — measurable accuracy gains and real time saved for the engineers using the
+          product every day.
         </p>
         <p>
-          I&apos;m currently expanding into Generative AI, RAG and agentic systems through my MS in
-          Artificial Intelligence at RMIT University. In parallel I work as Influencer Marketing
-          Manager at MyCreatorMate, running end-to-end creator campaigns — which gives me sharp
-          exposure to business strategy, negotiation and operations.
+          Right now I&apos;m deep into Generative AI, RAG and agentic systems through my MS in
+          Artificial Intelligence at RMIT University in Melbourne. I&apos;m actively breaking into
+          the Australian tech market — open to AI / ML roles, and quietly working towards the
+          long-term vision of building and selling AI services of my own.
         </p>
         <p>
           On <a href="https://instagram.com/beingmugdhaau" target="_blank" rel="noreferrer" className="text-accent hover:underline">@beingmugdhaau</a> I create content about AI, tech and student life
           in Australia for a community of 3,800+. What drives me: combining technology, creativity
-          and business to build things that actually ship.
+          and business — and learning out loud while I build.
         </p>
       </div>
     </section>
@@ -407,7 +408,7 @@ function Experience() {
 function Projects() {
   return (
     <section id="projects" className="mx-auto max-w-6xl px-6 py-24">
-      <SectionHeader kicker="Selected projects" title="Things I've designed, shipped, and learned from." />
+      <SectionHeader kicker="Selected projects" title="Things I've designed, built, and learned from." />
       <div className="grid md:grid-cols-2 gap-6">
         {projects.map((p, i) => (
           <article
@@ -448,7 +449,7 @@ function CreatorStudio() {
   const pillars = [
     { title: "AI, demystified", body: "Breaking down GenAI, LLMs and agents into bite-sized reels for students and early-career engineers." },
     { title: "Student life in AU", body: "Honest stories from doing a Masters in AI at RMIT — applications, scholarships, settling into Melbourne." },
-    { title: "Build in public", body: "Behind-the-scenes of projects, interview prep, internship hunts and lessons from shipping AI at Dassault Systèmes." },
+    { title: "Build in public", body: "Behind-the-scenes of what I'm learning — projects, interview prep, the job hunt in Australia, and the long road to building my own AI services." },
     { title: "Creator economy", body: "What I'm learning from running campaigns at MyCreatorMate — brand × creator collaboration done right." },
   ];
   const posts = [
