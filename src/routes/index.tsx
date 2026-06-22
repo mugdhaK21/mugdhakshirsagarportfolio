@@ -198,6 +198,7 @@ function Nav() {
           <a href="#about" className="hover:text-accent transition">About</a>
           <a href="#work" className="hover:text-accent transition">Work</a>
           <a href="#projects" className="hover:text-accent transition">Projects</a>
+          <a href="#creator" className="hover:text-accent transition">Creator</a>
           <a href="#skills" className="hover:text-accent transition">Skills</a>
           <a href="#certifications" className="hover:text-accent transition">Certs</a>
           <a href="#contact" className="hover:text-accent transition">Contact</a>
