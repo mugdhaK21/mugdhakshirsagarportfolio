@@ -449,7 +449,7 @@ function CreatorStudio() {
   const pillars = [
     { title: "AI, demystified", body: "Breaking down GenAI, LLMs and agents into bite-sized reels for students and early-career engineers." },
     { title: "Student life in AU", body: "Honest stories from doing a Masters in AI at RMIT — applications, scholarships, settling into Melbourne." },
-    { title: "Build in public", body: "Behind-the-scenes of projects, interview prep, internship hunts and lessons from shipping AI at Dassault Systèmes." },
+    { title: "Build in public", body: "Behind-the-scenes of what I'm learning — projects, interview prep, the job hunt in Australia, and the long road to building my own AI services." },
     { title: "Creator economy", body: "What I'm learning from running campaigns at MyCreatorMate — brand × creator collaboration done right." },
   ];
   const posts = [
