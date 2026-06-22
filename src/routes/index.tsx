@@ -408,7 +408,7 @@ function Experience() {
 function Projects() {
   return (
     <section id="projects" className="mx-auto max-w-6xl px-6 py-24">
-      <SectionHeader kicker="Selected projects" title="Things I've designed, shipped, and learned from." />
+      <SectionHeader kicker="Selected projects" title="Things I've designed, built, and learned from." />
       <div className="grid md:grid-cols-2 gap-6">
         {projects.map((p, i) => (
           <article
