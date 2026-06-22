@@ -342,21 +342,21 @@ function About() {
       />
       <div className="grid md:grid-cols-3 gap-8 text-lg leading-relaxed">
         <p>
-          I&apos;m an AI-focused Software Engineer with a strong foundation in building intelligent
-          systems that solve real problems. At Dassault Systèmes I shipped AI-driven automation
-          inside 3D CAD workflows — measurable accuracy gains and real time saved for the
-          engineers using the product every day.
+          I&apos;m an AI-focused engineer fascinated by how intelligent systems can solve real,
+          everyday problems. At Dassault Systèmes I worked on AI-driven automation inside 3D CAD
+          workflows — measurable accuracy gains and real time saved for the engineers using the
+          product every day.
         </p>
         <p>
-          I&apos;m currently expanding into Generative AI, RAG and agentic systems through my MS in
-          Artificial Intelligence at RMIT University. In parallel I work as Influencer Marketing
-          Manager at MyCreatorMate, running end-to-end creator campaigns — which gives me sharp
-          exposure to business strategy, negotiation and operations.
+          Right now I&apos;m deep into Generative AI, RAG and agentic systems through my MS in
+          Artificial Intelligence at RMIT University in Melbourne. I&apos;m actively breaking into
+          the Australian tech market — open to AI / ML roles, and quietly working towards the
+          long-term vision of building and selling AI services of my own.
         </p>
         <p>
           On <a href="https://instagram.com/beingmugdhaau" target="_blank" rel="noreferrer" className="text-accent hover:underline">@beingmugdhaau</a> I create content about AI, tech and student life
           in Australia for a community of 3,800+. What drives me: combining technology, creativity
-          and business to build things that actually ship.
+          and business — and learning out loud while I build.
         </p>
       </div>
     </section>
