@@ -176,6 +176,7 @@ function Portfolio() {
       <About />
       <Experience />
       <Projects />
+      <CreatorStudio />
       <SkillsSection />
       <Certifications />
       <Education />
