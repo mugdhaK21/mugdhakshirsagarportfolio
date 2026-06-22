@@ -224,14 +224,15 @@ function Hero() {
             Open to AI / ML roles · Melbourne
           </div>
           <h1 className="font-display text-5xl sm:text-6xl md:text-7xl leading-[1.02] text-balance">
-            AI Developer building{" "}
-            <em className="text-accent not-italic font-display italic">intelligent</em> systems —
-            and a brand around them.
+            AI Developer learning out loud —{" "}
+            <em className="text-accent not-italic font-display italic">building</em> a future
+            around AI products & a personal brand.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed">
-            I&apos;m Mugdha Kshirsagar — an AI Developer & Generative AI engineer, ex-Dassault
-            Systèmes, currently doing my Masters in AI at RMIT. By day I ship AI products; by
-            night I run creator campaigns at MyCreatorMate and tell the story of tech on Instagram
+            I&apos;m Mugdha Kshirsagar — a tech enthusiast and AI Developer just wrapping up my
+            Masters in AI at RMIT in Melbourne. I&apos;m breaking into the AU market with a vision
+            to build and sell AI services of my own, and I document the whole journey as a tech
+            content creator on Instagram
             <a href="https://instagram.com/beingmugdhaau" target="_blank" rel="noreferrer" className="text-accent hover:underline"> @beingmugdhaau</a>.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
