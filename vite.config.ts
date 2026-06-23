@@ -14,4 +14,6 @@ export default defineConfig({
     // Generate a completely static site for Vercel static hosting.
     static: true,
   },
+  // Force Nitro to run outside the Lovable sandbox so static files are produced.
+  nitro: true,
 });
