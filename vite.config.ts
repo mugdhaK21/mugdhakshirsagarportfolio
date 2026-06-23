@@ -8,10 +8,9 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   tanstackStart: {
-    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
-    // nitro/vite builds from this
-    server: { entry: "server" },
+    // Generate a completely static site for Vercel static hosting.
+    static: true,
   },
-  // Target Vercel serverless/edge functions for deployment.
-  nitro: { preset: "vercel" },
+  // Force a static Nitro preset so `.output/public/index.html` is produced.
+  nitro: { preset: "static" },
 });
