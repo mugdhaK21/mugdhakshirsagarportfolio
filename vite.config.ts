@@ -12,4 +12,8 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  nitro: {
+    // Generate a static export for Vercel static hosting.
+    preset: "static",
+  },
 });
