@@ -266,7 +266,7 @@ function Hero() {
         <div className="md:col-span-5 relative">
           <div className="relative aspect-[4/5] rounded-2xl overflow-hidden grain bg-secondary shadow-xl">
             <img
-              src={profileAsset.url}
+              src={profileAsset}
               alt="Mugdha Kshirsagar in Melbourne"
               width={1200}
               height={1500}
