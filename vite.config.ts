@@ -11,9 +11,7 @@ export default defineConfig({
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
     server: { entry: "server" },
-  },
-  nitro: {
-    // Generate a static export for Vercel static hosting.
-    preset: "static",
+    // Generate a completely static site for Vercel static hosting.
+    static: true,
   },
 });
