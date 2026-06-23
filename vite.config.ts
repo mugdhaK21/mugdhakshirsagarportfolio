@@ -12,5 +12,5 @@ export default defineConfig({
     static: true,
   },
   // Force a static Nitro preset so `.output/public/index.html` is produced.
-  nitro: { preset: "static" },
+  nitro: { preset: "vercel-static" },
 });
