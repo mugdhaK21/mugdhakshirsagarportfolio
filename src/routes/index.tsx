@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import profileAsset from "@/assets/mugdha-profile.asset.json";
+import profileAsset from "@/assets/mugdha-profile.jpeg"
 import {
   ArrowUpRight,
   Mail,
@@ -28,8 +28,8 @@ export const Route = createFileRoute("/")({
         content:
           "AI Developer & Generative AI engineer in Melbourne. Ex-Dassault Systèmes, Masters in AI @ RMIT, Influencer Marketing @ MyCreatorMate.",
       },
-      { property: "og:image", content: profileAsset.url },
-      { name: "twitter:image", content: profileAsset.url },
+      { property: "og:image", content: profileAsset},
+      { name: "twitter:image", content: profileAsset},
     ],
   }),
   component: Portfolio,
